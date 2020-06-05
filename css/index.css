@@ -31,6 +31,30 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+#logo{
+    margin: 0% 0%;
+    display: inline-block;
+}
+.navigation {
+    margin: 3% 18.5%;
+    /*border: 2px solid blue;*/
+    display: flex;
+}
+.navigation nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    /*border: 2px solid red;*/
+    width: 80%;
+}
+.navigation nav a{
+    text-decoration: none;
+    color: black;
+}
+.headerimg{
+    width:100%;
+    margin: 1% 18.5%;
+}
 ol, ul {
 	list-style: none;
 }
@@ -143,4 +167,34 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color: gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
 }
